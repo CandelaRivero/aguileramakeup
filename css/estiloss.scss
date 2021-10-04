@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+hr {
+    margin: 0;
+}
+
+
+
+    .fondos {
+        background-image: linear-gradient(to bottom, white, pink);
+        padding-bottom: 10%;
+        
+    }
+
+
+
+
+
+
+
+header{
+    .header__titulo {
+        font-weight: normal;
+    font-family: 'Dancing Script', cursive;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+
+    }
+
+    
+
+
+    .header__menu{
+        color: black;
+        list-style: none;
+        font-style: italic;
+        position: relative;
+        
+        
+    }
+    .header__buscar{
+        padding: 20px; 
+        margin: 20px 0px 20px 20px;
+        min-width: 30px;
+        max-width: 150px;
+
+    }
+
+
+
+    .header__carrito {
+        padding: 20px; 
+        width: 100px;
+        margin: 20px;
+        justify-self: end;
+
+    }
+    button:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+
+
+nav {
+        text-align: center;
+        background-color:pink;
+        
+    a {
+        color: black;
+    }
+    
+    
+     ul li{
+        display: inline-block;
+        width: 10%;
+        margin: 30px;
+        padding: 10px;
+        
+        
+    }
+    
+    ul li:hover ul  {
+        display: block;
+    
+    }
+    
+    ul li ul {
+        position: absolute;
+        width: 300px;
+        display: none;
+    }
+    
+    
+    /*.nav__submenu {
+        position: absolute;
+        background-color: rgb(192, 187, 187);
+        width: 10%;
+        height: 50%;
+        text-align: left;
+        font-style: italic;
+    
+    }*/
+}
+
+
+.box {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+
+
+    .box__texto1 {
+        font-weight: normal;
+        font-size: 19px;
+        font-family: 'Kaisei Decol', serif;
+        line-height: 1.5;
+        padding: 20px;
+        margin: 20px;
+    
+    }
+    
+    
+    .box__img1 {
+        border: solid 1px black; 
+        height: 400px;
+        width: 400px;  
+        margin: 50px;
+    
+    
+    }
+}
+
+
+
+
+
+
+.box2{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+
+    .box2__texto2 {
+        font-weight: normal;
+        font-size: 19px;
+        font-family: 'Kaisei Decol', serif;
+        line-height: 1.5;
+        padding: 20px;
+        margin: 20px;
+        
+        
+    }
+    
+    .box2__img2 {
+        border: solid 1px black;
+        height: 400px;
+        width: 400px;
+        
+        margin: 50px;
+        
+        
+    }
+    
+}
+
+
+
+footer {
+    
+    background-image: linear-gradient(to top, white, pink);
+    font-size: 20px; color: black;
+    font-weight: normal;
+    font-style: normal;
+    
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    align-items: stretch;
+
+
+    .footer__footer {
+        padding: 30px;
+        margin: 30px;
+        color: grey;
+        font-style: italic;
+        font-weight: 500;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+/*CURSOS*/
+
+.titleCursos {
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.parrafo1 {
+    font-size: 19px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+    font-family: Kaisei Decoi;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+
+
+.carrusel {
+    display:flex; gap: 2rem;
+
+
+    .carrusel__fotoCurso1 {
+        width: 200px; height: 400px;
+        
+    }
+}
+
+.formulario{
+    margin: 30px;
+    padding: 30px;
+    border: solid 1px ;
+
+
+    .formulario__cuestionarioInside {
+        padding: 10px; margin: 10px;
+        
+    }
+}
+
+
+
+
+
+/*INFORMACION*/
+
+.titleInfo {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+ 
+.promociones {
+    text-align: center;
+    font-weight: 400;
+    background-color: plum;
+}
+
+
+
+.Promo {
+    display: grid;
+    gap: 1rem;
+    padding: 50px 25px;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+
+    .Promo_promotion {
+        font-family: 'Quicksand', sans-serif;
+        
+    }
+    .Promo__p1 {
+    
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+        padding: 10px;
+        
+    }
+    
+    
+    .Promo__divpromo {
+        background-color: rgb(241, 204, 210);
+        border: solid 1px white;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .Promo__divpromo:hover {
+        transform: scale(1.1);
+    }
+    
+    .Promo__imgPromo {
+        width: 300px;
+        height: 300px;
+        
+    }
+    
+}
+
+
+
+
+
+
+/*NOSOTROS*/
+.titleNos{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+.parrafo {
+    
+    text-align: center;
+    line-height: 1,6;
+    font-size: 25px;
+    font-style: normal ;
+    font-family: 'Shadows Into Light', cursive;
+    border: solid grey;
+    padding: 40px;
+    margin: 40px;
+
+    
+}
+
+
+
+
+
+/*MAQUILLAJES*/
+
+.titleMaq {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+
+.boxmaq {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.maq1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: solid black;
+    margin: 20px;
+    
+}
+
+.maq1:hover {
+    transform: scale(1.1);
+    transition-duration: 2s, 3s;
+}
+
+
+
+
+
+/*PRODUCTOS*/
+
+.titleProductos {
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.noProductos {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(209, 195, 195);
+    border: solid black;
+    margin: 10%;
+    padding: 5%;
+}
+
+
+
+/*@media screen and (min-width: 425px)  {
+    header {
+        
+        justify-content: center;
+        width: auto;
+    }
+    
+    .boxCursos {
+        display: grid;
+        grid-template-rows: 2fr 2fr 2fr;
+    }
+    
+ }
+ 
+
+ @media screen and (min-width: 768px)  {
+     header  {
+         
+         justify-content: center;
+         width: auto;
+         
+     }
+     .boxCursos {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+ 
+    
+  }
+
+  
+ @media screen and (min-width: 1024px) {
+    .boxCursos {
+        display: grid;
+        grid-template-rows: 2fr 2fr 2fr;
+    }
+     
+ }*/
+
+ /*.imgLogo {
+    border: solid 1px black ;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    
+    
+    
+
+}*/
+
+/*.boxbutton {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}*/
