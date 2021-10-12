@@ -28,7 +28,6 @@ header .header__titulo:hover {
 header .header__menu {
   color: black;
   font-style: italic;
-  position: relative;
 }
 
 nav {
