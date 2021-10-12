@@ -16,73 +16,27 @@ hr {
 }
 
 header .header__titulo {
-  font-weight: normal;
   font-family: 'Dancing Script', cursive;
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+header .header__titulo:hover {
+  color: black;
 }
 
 header .header__menu {
   color: black;
-  list-style: none;
   font-style: italic;
   position: relative;
 }
 
-header .header__buscar {
-  padding: 20px;
-  margin: 20px 0px 20px 20px;
-  min-width: 30px;
-  max-width: 150px;
-}
-
-header .header__carrito {
-  padding: 20px;
-  width: 100px;
-  margin: 20px;
-  -ms-grid-column-align: end;
-      justify-self: end;
-}
-
-header button:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 nav {
-  text-align: center;
   background-color: pink;
 }
 
-nav a {
+nav .nav-link:hover {
   color: black;
-}
-
-nav ul li {
-  display: inline-block;
-  width: 10%;
-  margin: 30px;
-  padding: 10px;
-}
-
-nav ul li:hover ul {
-  display: block;
-}
-
-nav ul li ul {
-  position: absolute;
-  width: 300px;
-  display: none;
-}
-
-nav .nav__submenu {
-  position: absolute;
-  background-color: #c0bbbb;
-  width: 10%;
-  height: 50%;
-  text-align: left;
-  font-style: italic;
 }
 
 .box {
@@ -164,7 +118,6 @@ footer {
 footer .footer__footer {
   padding: 30px;
   margin: 30px;
-  color: grey;
   font-style: italic;
   font-weight: 500;
 }
@@ -402,6 +355,7 @@ footer .footer__footer {
 
 }*/
 /*.boxbutton {
+
     
     display: flex;
     flex-direction: row;
@@ -410,4 +364,52 @@ footer .footer__footer {
 
     
 }*/
+/* ul li{
+        display: inline-block;
+        width: 10%;
+        margin: 30px;
+        padding: 10px;
+        
+        
+    }
+    
+    ul li:hover ul  {
+        display: block;
+    
+    }
+    
+    ul li ul {
+        position: absolute;
+        width: 300px;
+        display: none;
+    }*/
+/*.nav__submenu {
+
+
+        position: absolute;
+        background-color: rgb(192, 187, 187);
+        width: 10%;
+        height: 50%;
+        text-align: left;
+        font-style: italic;
+    
+    }*/
+/*.header__buscar{
+        padding: 20px; 
+        margin: 20px 0px 20px 20px;
+        min-width: 30px;
+        max-width: 150px;
+        
+
+    }*/
+/* .header__carrito {
+        padding: 20px; 
+        width: 100px;
+        margin: 20px;
+        justify-self: end;
+
+    }
+    button:hover {
+        transform: scale(1.1);
+    }*/
 /*# sourceMappingURL=estiloss.css.map */

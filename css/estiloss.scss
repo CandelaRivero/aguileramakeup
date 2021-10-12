@@ -32,7 +32,13 @@ hr {
 header{
     .header__titulo {
     font-family: 'Dancing Script', cursive;
+    color: black;
+    text-decoration: none;
     
+    }
+
+    .header__titulo:hover {
+        color: black;
     }
 
     
@@ -40,6 +46,8 @@ header{
 
     .header__menu{
         color: black;
+        font-style: italic;
+        position: relative;
          
     }
 }
@@ -458,12 +466,13 @@ footer {
         margin: 20px 0px 20px 20px;
         min-width: 30px;
         max-width: 150px;
+        
 
-    }
+    }*/
 
 
 
-    .header__carrito {
+   /* .header__carrito {
         padding: 20px; 
         width: 100px;
         margin: 20px;
@@ -472,8 +481,8 @@ footer {
     }
     button:hover {
         transform: scale(1.1);
-    }
-}*/ 
+    }*/
+
 
 
 
