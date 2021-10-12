@@ -31,12 +31,8 @@ hr {
 
 header{
     .header__titulo {
-        font-weight: normal;
     font-family: 'Dancing Script', cursive;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-
+    
     }
 
     
@@ -44,33 +40,11 @@ header{
 
     .header__menu{
         color: black;
-        list-style: none;
-        font-style: italic;
-        position: relative;
-        
-        
-    }
-    .header__buscar{
-        padding: 20px; 
-        margin: 20px 0px 20px 20px;
-        min-width: 30px;
-        max-width: 150px;
-
-    }
-
-
-
-    .header__carrito {
-        padding: 20px; 
-        width: 100px;
-        margin: 20px;
-        justify-self: end;
-
-    }
-    button:hover {
-        transform: scale(1.1);
+         
     }
 }
+
+ 
 
 
 
@@ -78,44 +52,13 @@ header{
 
 
 nav {
-        text-align: center;
+       
         background-color:pink;
         
-    a {
+
+    .nav-link:hover {
         color: black;
     }
-    
-    
-     ul li{
-        display: inline-block;
-        width: 10%;
-        margin: 30px;
-        padding: 10px;
-        
-        
-    }
-    
-    ul li:hover ul  {
-        display: block;
-    
-    }
-    
-    ul li ul {
-        position: absolute;
-        width: 300px;
-        display: none;
-    }
-    
-    
-    /*.nav__submenu {
-        position: absolute;
-        background-color: rgb(192, 187, 187);
-        width: 10%;
-        height: 50%;
-        text-align: left;
-        font-style: italic;
-    
-    }*/
 }
 
 
@@ -201,7 +144,6 @@ footer {
     .footer__footer {
         padding: 30px;
         margin: 30px;
-        color: grey;
         font-style: italic;
         font-weight: 500;
     
@@ -467,6 +409,7 @@ footer {
 }*/
 
 /*.boxbutton {
+
     
     display: flex;
     flex-direction: row;
@@ -475,3 +418,70 @@ footer {
 
     
 }*/
+
+
+    /* ul li{
+        display: inline-block;
+        width: 10%;
+        margin: 30px;
+        padding: 10px;
+        
+        
+    }
+    
+    ul li:hover ul  {
+        display: block;
+    
+    }
+    
+    ul li ul {
+        position: absolute;
+        width: 300px;
+        display: none;
+    }*/
+    
+    
+    /*.nav__submenu {
+
+
+        position: absolute;
+        background-color: rgb(192, 187, 187);
+        width: 10%;
+        height: 50%;
+        text-align: left;
+        font-style: italic;
+    
+    }*/
+
+   /*.header__buscar{
+        padding: 20px; 
+        margin: 20px 0px 20px 20px;
+        min-width: 30px;
+        max-width: 150px;
+
+    }
+
+
+
+    .header__carrito {
+        padding: 20px; 
+        width: 100px;
+        margin: 20px;
+        justify-self: end;
+
+    }
+    button:hover {
+        transform: scale(1.1);
+    }
+}*/ 
+
+
+
+
+
+
+
+
+
+
+
