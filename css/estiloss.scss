@@ -32,8 +32,14 @@ hr {
 header{
     .header__titulo {
     font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    font-size: 30px;
+    padding: 6px 10px;
     color: black;
-    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid white;
+    background: white;
+    
     
     }
 
@@ -61,7 +67,7 @@ header{
 
 nav {
        
-        background-color:pink;
+       
         
 
     .nav-link:hover {
@@ -189,7 +195,7 @@ footer {
 
 
 .carrusel {
-    display:flex; gap: 2rem;
+    display:grid; gap: 2rem;
 
 
     .carrusel__fotoCurso1 {
@@ -210,6 +216,37 @@ footer {
     }
 }
 
+
+
+
+@media screen and (min-width: 425px)  {
+
+   .carrusel {
+       display: flex;
+       
+       
+   }
+
+   
+  
+    
+ }
+ 
+
+ @media screen and (min-width: 768px)  {
+
+    .carrusel {
+        display: flex;
+        
+        
+    }
+     
+     
+ 
+    
+  }
+
+  
 
 
 
@@ -278,6 +315,12 @@ footer {
 }
 
 
+
+ 
+   
+ 
+ 
+ 
 
 
 

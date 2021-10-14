@@ -17,8 +17,13 @@ hr {
 
 header .header__titulo {
   font-family: 'Dancing Script', cursive;
+  display: inline-block;
+  font-size: 30px;
+  padding: 6px 10px;
   color: black;
-  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid white;
+  background: white;
 }
 
 header .header__titulo:hover {
@@ -28,10 +33,6 @@ header .header__titulo:hover {
 header .header__menu {
   color: black;
   font-style: italic;
-}
-
-nav {
-  background-color: pink;
 }
 
 nav .nav-link:hover {
@@ -141,9 +142,8 @@ footer .footer__footer {
 }
 
 .carrusel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   gap: 2rem;
 }
 
@@ -161,6 +161,22 @@ footer .footer__footer {
 .formulario .formulario__cuestionarioInside {
   padding: 10px;
   margin: 10px;
+}
+
+@media screen and (min-width: 425px) {
+  .carrusel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carrusel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 /*INFORMACION*/
