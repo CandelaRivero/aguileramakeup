@@ -321,6 +321,41 @@ footer .footer__footer {
   padding: 5%;
 }
 
+.productos {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  padding: 50px 25px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+/*.Prod__p1 {
+    
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    
+}
+
+
+.dentro {
+        border: solid 1px white;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+        justify-content: space-between;
+}
+
+
+.prodimg {
+    width: 300px;
+    height: 300px;
+    
+}*/
 /*@media screen and (min-width: 425px)  {
     header {
         
