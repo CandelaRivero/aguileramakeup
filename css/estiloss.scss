@@ -398,7 +398,7 @@ footer {
     margin: 20px;
 }
 
-.noProductos {
+/*.noProductos {
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -407,17 +407,32 @@ footer {
     border: solid black;
     margin: 10%;
     padding: 5%;
-}
+}*/
 
 
 .productos {
+    
     display: grid;
     gap: 1rem;
     padding: 50px 25px;
     align-content: center;
     grid-template-columns: repeat(3, 1fr);
     
+    justify-content: center;
+    
 }
+
+.dentro {
+    display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+        justify-content: space-between;
+}
+
+
+
+
 
 
 
